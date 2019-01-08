@@ -14,7 +14,8 @@
         android:layout_marginTop="30dp"
         android:text="id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/name"
@@ -23,7 +24,8 @@
         android:layout_marginTop="30dp"
         android:text="id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/Staffn"
@@ -32,7 +34,8 @@
         android:layout_marginTop="30dp"
         android:text="id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/sname"
@@ -41,7 +44,8 @@
         android:layout_marginTop="30dp"
         android:text="id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -53,7 +57,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.326"
-        tools:layout_editor_absoluteX="0dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
 
         <RadioButton
             android:id="@+id/radioButton1"
